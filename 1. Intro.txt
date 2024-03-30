@@ -1,0 +1,11 @@
+Analyze the career track enrollments at an online education company – think of a company like Udemy or Datacamp. 
+You’ll need to retrieve the necessary information from a SQL database that is provided to you. 
+
+• career_track_info
+	o track_id – the unique identification of a track, which serves as the primary key to the table
+	o track_name – the name of the track
+• career_track_student_enrollments
+o student_id – the unique identification of a student
+o track_id – the unique identification of a track. Together with the previous column, they make up the primary key to the table—i.e., each student can enroll in a specific track only once. But a student can enroll in more than one career track.
+o date_enrolled – the date the student enrolled in the track. A student can enroll in more than one career track.
+o date_completed – the date the student completed the track. If the track is not completed, the field is NULL.
